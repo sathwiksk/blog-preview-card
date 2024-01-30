@@ -31,9 +31,10 @@ body
     flex-direction: column;
     justify-content: space-evenly;
     min-height: 28rem;
+    max-height:30rem;
     border: 1px solid black;
     box-shadow: 0.4rem 0.4rem  black;
-    max-width:23rem;
+    max-width:22rem;
     
     
 
