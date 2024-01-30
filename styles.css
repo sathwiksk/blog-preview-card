@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 body
 {
     background-color: hsl(47, 88%, 63%);
@@ -32,7 +33,7 @@ body
     min-height: 28rem;
     border: 1px solid black;
     box-shadow: 0.4rem 0.4rem  black;
-    max-width:21rem;
+    max-width:23rem;
     
     
 
@@ -76,11 +77,18 @@ h1{
     align-items: center;
     gap:1ch
 }
-.credits>img{
-    
+a{
+    text-decoration: none;
+    color:black;
+}
+a>img
+{
+    max-width:2rem;
     max-width: 1.7rem;
     border-radius: 50%;
 }
+
+
 .credits>span{
     font-weight: 800;
     font-size: 0.8em;
